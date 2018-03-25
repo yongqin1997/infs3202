@@ -1,140 +1,158 @@
+<html>
 
-<!doctype html>
-<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    
-    <title>Basic checkout example using HTML&CSS</title>
+    <title>ABC pizza</title>
+    <!-- External CSS -->
+   <link rel="stylesheet" href="css/style.css">
+   <!--  <link rel="stylesheet" href="css/calendar.css">
+    <!-- External JavaScript 
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+    <script src="https://use.fontawesome.com/caf6aa5601.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKOD_dlYHqHCAHWa1bk21uGSdqlunYrNc&callback=myMap" type="text/javascript"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/calendar.js"></script>-->
 </head>
 
 <body>
-
-<div class="container">
-    <h2 class="text-center mb-5">Checkout form</h2>
-    <div class="wrap">
-        <div class="cart">
-            <h4>
-                <span>Your cart: </span>
-                <span>3 items</span>
-            </h4>
-            <ul>
-                <li class="cart-item">
-                    <div class="product-item">
-                        <h6>Product name</h6>
-                        <small>Brief description</small>
-                    </div>
-                    <span>$12</span>
-                    <div class="clearfix"></div>
-                </li>
-                <li class="cart-item">
-                    <div class="product-item">
-                        <h6>Second product</h6>
-                        <small>Brief description</small>
-                    </div>
-                    <span>$8</span>
-                    <div class="clearfix"></div>
-                </li>
-                <li class="cart-item">
-                    <div class="product-item">
-                        <h6>Third item</h6>
-                        <small>Brief description</small>
-                    </div>
-                    <span>$5</span>
-                    <div class="clearfix"></div>
-                </li>
-                <li class="cart-sum">
-                    <span>Total (AUD):</span>
-                    <strong>&nbsp;&nbsp;&nbsp;&nbsp;$20</strong>
-                </li>
-            </ul>
+    <div class="main-container">
+        <div class="header">
+            <div class="logo">
+                <img src="assets/images/logo1.png">
+                display logo here
+            </div>
+            <div class="navigation-bar">
+                
+               
+                <a href="findahouse.html">
+                    <div class="navigation-list">Find a house</div>
+                </a>
+                     <a href="Menu.html">
+                    <div class="navigation-list">Menu</div>
+                </a>
+                
+                <a href="Account.html">
+                    <div class="navigation-list">Account</div>
+                </a>
+                <a href="Cart.html">
+                    <div class="navigation-list">Cart</div>
+                </a>
+                
+            </div>
+            
         </div>
-        <div class="checkout-form">
-            <h4>Billing address</h4>
-            <form>
-                <div>
-                    <div class="firstname-box">
-                        <label for="firstName">First name</label>
-                        <input type="text" id="firstName" placeholder="" value="" required>
+        <div class="mid-container">
+            <div class="mid-container1">
+                <div class="tags">
+                    <!--image -->
+                </div>
+                <h1>Choose your favourite pizza now</h1>
+                
+                <form action="findahouse.html">
+                    <select class="textbox" name="cars" type="text"> 
+                        <option value="volvo">Select State</option>
+                        <option value="audi">Western Australia</option>
+                    </select>
+                    <input class="textbox" type="text" id="from" name="from" placeholder="From date">
+                    <input class="textbox" type="text" id="to" name="to" placeholder="To date">
+                    <input class="button" type="submit" value="Search" size="16">
+                </form>
+            </div>
+            <div class="mid-container2">
+                <div class="title">Experience</div>
+                <div class="content">
+                    To makes an experience truly special, it is all about the magical combination of our secret recipe and permium service.
+                </div>
+                
+            </div>
+            <div class="mid-container3">
+                <div class="gallery">
+                    <div class="card">
+                        <a href="findahouse.html">
+                            <div class="card-image"></div>
+                        </a>
+                        <a href="findahouse.html">
+                            <div class="card-content">
+                                <div class="card-content-date">
+                                    zxczxc
+                                </div>
+                                <div class="card-content-location">
+                                    zxcz
+                                </div>
+                                <div class="card-content-info">
+                                   zxczxc
+                                </div>
+                            </div>
+                        </a>
                     </div>
-                    <div class="lastname-box">
-                        <label for="lastName">Last name</label>
-                        <input type="text" id="lastName" placeholder="" value="" required>
+                    <div class="card">
+                        <a href="findahouse.html">
+                            <div class="card-image"></div>
+                        </a>
+                        <a href="findahouse.html">
+                            <div class="card-content">
+                                <div class="card-content-date">
+                                    zxczc
+                                </div>
+                                <div class="card-content-location">
+                                   zcxzxc
+                                </div>
+                                <div class="card-content-info">
+                                    zxczc
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="card">
+                        <a href="findahouse.html">
+                            <div class="card-image"></div>
+                        </a>
+                        <a href="findahouse.html">
+                            <div class="card-content">
+                                <div class="card-content-date">
+                                    zxczxcz
+                                </div>
+                                <div class="card-content-location">
+                                    zxczxc
+                                </div>
+                                <div class="card-content-info">
+                                    zxczxcz
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
+                <div class="property">
+                    See All items
+                </div>
+            </div>
+        </div>
 
-                <div>
-                    <label for="address">Address</label>
-                    <input type="text" id="address" placeholder="1234 Main St" required>
-                </div>
 
-                <div>
-                    <div class="country-box">
-                        <label for="country">Country</label>
-                        <select class="custom-select d-block w-100" id="country" required>
-                            <option value="">Choose...</option>
-                            <option>Australia</option>
-                        </select>
-                    </div>
-                    <div class="state-box">
-                        <label for="state">State</label>
-                        <select class="custom-select d-block w-100" id="state" required>
-                            <option value="">Choose...</option>
-                            <option>California</option>
-                        </select>
-                    </div>
-                    <div class="zip-box">
-                        <label for="zip">Zip</label>
-                        <input type="text" id="zip" placeholder="" required>
-                    </div>
-                </div>
-                <hr>
-                <div>
-                    <input type="checkbox" id="same-address">
-                    <label for="same-address">Shipping address is the same as my billing address</label>
-                </div>
-                <div>
-                    <input type="checkbox" id="save-info">
-                    <label for="save-info">Save this information for next time</label>
-                </div>
-                <hr>
-
-                <h4>Payment</h4>
-
-                <div>
-                    <div>
-                        <input id="credit" name="paymentMethod" type="radio" checked required>
-                        <label for="credit">Credit card</label>
-                    </div>
-                    <div>
-                        <input id="debit" name="paymentMethod" type="radio" required>
-                        <label for="debit">Debit card</label>
-                    </div>
-                    <div>
-                        <input id="paypal" name="paymentMethod" type="radio" required>
-                        <label for="paypal">Paypal</label>
-                    </div>
-                </div>
-                <hr>
-                <button type="submit">Checkout</button>
-            </form>
+        <div class="footer">
+            <div class="footer-links">
+                <h2>Company</h2>
+                <div>About</div>
+                <div>Contact</div>
+                <div>Terms and conditions</div>
+                <div>FAQs</div>
+            </div>
+            <div class="footer-links">
+                
+                
+            </div>
+            <div class="footer-social">
+                <h2>newsletter</h2>
+                <form>
+                    <input type="email" placeholder="Email address">
+                    <input type="submit" value="Subscribe">
+                </form>
+                <h2>follow us</h2>
+                <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+            </div>
         </div>
     </div>
-
-    <footer>
-        <p>&copy; 2017-2018 Company Name</p>
-        <ul>
-            <li><a href="#">Privacy</a></li>
-            <li><a href="#">Terms</a></li>
-            <li><a href="#">Support</a></li>
-        </ul>
-    </footer>
-</div>
-<!-- for test>
-<!-- ================================================== -->
-<!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 </body>
+
+
 </html>
