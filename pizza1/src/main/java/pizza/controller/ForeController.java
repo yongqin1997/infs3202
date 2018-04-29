@@ -41,4 +41,12 @@ public class ForeController {
     public String home(Model model) {
         return "fore/home";
     }
+    
+    @RequestMapping("menu")
+    public String menu(Model model) {
+    	List<Category> cs= categoryService.list();
+        productService.fill(cs);
+        model.addAttribute("cs", cs);
+        return "fore/menu";
+    }
 }

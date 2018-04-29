@@ -10,8 +10,8 @@
         <div class="navigation-bar">
          
         	
-         	<a href="index.jsp">
-                    <div class="navigation-list">Home</div>
+         	<a href="menu">
+                    <div class="navigation-list">Menu</div>
             </a>    
             <a href="accout">
                     <div class="navigation-list">Account</div>

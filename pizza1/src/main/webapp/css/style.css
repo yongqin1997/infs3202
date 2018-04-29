@@ -45,3 +45,29 @@
         flex-direction: row;
         justify-content: space-between;
         align-items: center; }
+        
+        
+.footer {
+  width: 100vw;
+  background: grey;
+  padding: 5vh 0;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 100;
+  font-size: 12pt; }
+  .footer .footer-links {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 33.3%; } 
+    .footer .footer-links div {
+      color: #FF926F;
+      margin-bottom: 1.5vh; }
+  
+  .footer .footer-social {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    width: 33.3%; }
+    .footer .footer-social a {
+      color: #FF926F; }

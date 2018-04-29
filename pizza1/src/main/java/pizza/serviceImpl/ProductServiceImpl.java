@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import pizza.mapper.ProductMapper;
+import pizza.pojo.Category;
 import pizza.pojo.Product;
 import pizza.pojo.ProductExample;
 import pizza.service.OrderItemService;
@@ -50,4 +51,17 @@ public class ProductServiceImpl implements ProductService {
         List result = productMapper.selectByExample(example);
         return result;
     }
+
+	@Override
+	public void fill(List<Category> cs) {
+		for (Category c : cs) {
+            fill(c);
+        }
+	}
+
+	@Override
+	public void fill(Category c) {
+		List<Product> ps = list(c.getId());
+        c.setProducts(ps);
+	}
 }

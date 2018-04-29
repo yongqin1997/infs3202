@@ -7,6 +7,21 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+        <div class="footer">
+            <div class="footer-links">
+                <div>About</div>
+                <div>Contact</div>
+                <div>Terms and conditions</div>
+                <div>FAQs</div>
+            </div>      
+            <p>&copy; 2017-2018 Company Name</p>
+        	<ul class="footer-social">
+            	<li><a href="#">Privacy</a></li>
+            	<li><a href="#">Terms</a></li>
+            	<li><a href="#">Support</a></li>
+       		</ul>
+        </div>
+            
+</div>
 </body>
 </html>

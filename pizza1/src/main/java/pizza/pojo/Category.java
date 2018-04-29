@@ -1,9 +1,14 @@
 package pizza.pojo;
 
+import java.util.List;
+
 public class Category {
     private Integer id;
 
     private String name;
+    
+    List<Product> products;
+ 
 
     public Integer getId() {
         return id;
@@ -20,4 +25,13 @@ public class Category {
     public void setName(String name) {
         this.name = name == null ? null : name.trim();
     }
+    
+    public List<Product> getProducts() {
+        return products;
+    }
+ 
+    public void setProducts(List<Product> products) {
+        this.products = products;
+    }
+ 
 }
