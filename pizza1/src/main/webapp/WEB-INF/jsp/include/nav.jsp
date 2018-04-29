@@ -1,29 +1,31 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="ISO-8859-1" isELIgnored="false"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
-<nav class="top ">
-        <a href="${contextPath}">
-            <span style="color:#C40000;margin:0px" class=" glyphicon glyphicon-home redColor"></span>
-            Home
-        </a> 
+<nav class="nav ">
+        <div class="logo">
+        	<img src="images/logo1.png">
+        	<span>Welcom to PizzaHouse</span>
+        </div>
+        
+        <div class="navigation-bar">
          
-        <span>Welcom to PizzaHouse</span>
-         
-        <c:if test="${!empty user}">
-            <a href="login.jsp">${user.name}</a>
-            <a href="forelogout">logout</a>    
-        </c:if>
-         
-        <c:if test="${empty user}">
-            <a href="login.jsp">login</a>
-            <a href="register.jsp">sign on</a>    
-        </c:if>
- 
-        <span class="pull-right">
-            <a href="forebought">myorder</a>
-            <a href="forecart">
-            <span style="color:#C40000;margin:0px" class=" glyphicon glyphicon-shopping-cart redColor"></span>
-            cart<strong>${cartTotalItemNumber}</strong></a>      
-        </span>
-         
+        	
+         	<a href="index.jsp">
+                    <div class="navigation-list">Home</div>
+            </a>    
+            <a href="accout">
+                    <div class="navigation-list">Account</div>
+            </a>
+            
+           	<a href="bought">
+           		<div class="navigation-list">Myorder</div>
+           	</a>
+           	
+            <a href="cart">
+            <div class="navigation-list">
+            	<span style="color:#000000;margin:0px" class="glyphicon glyphicon-shopping-cart"></span>
+            	cart<strong>${cartTotalItemNumber}</strong>
+            	</div>
+           	</a>   
+            
 </nav>

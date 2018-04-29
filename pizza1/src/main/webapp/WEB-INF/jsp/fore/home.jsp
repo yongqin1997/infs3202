@@ -3,4 +3,5 @@
 
 <%@include file="../include/header.jsp"%>
 <%@include file="../include/nav.jsp"%>
+<%@include file="../include/login.jsp"%>
 <%@include file="../include/footer.jsp"%>
