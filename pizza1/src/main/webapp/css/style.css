@@ -51,6 +51,7 @@
     align-items: center;
 }
 
+/*footer*/
 .footer {
     float: left;
     width: 33.33%;
@@ -135,4 +136,49 @@ div > ul > li > a{
 
 div > ul> li > a:hover {
 	background-color: #111;
+}
+
+
+/*header*/
+.header {
+    position: absolute;
+    color: white;
+    height: 18vh;
+    width: 100%;
+    background-color: #212121;
+}
+
+.header .logo {
+    padding-left: 5vw;
+    max-height: 18vh;
+}
+
+.header ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    overflow: hidden;
+    margin-right: 2vw;
+    text-align: center;
+}
+
+.header li {
+    float: left;
+    width: 15vw;
+    height: 6vh;
+    font-size: 4vh;
+    margin-top: 6vh;
+    border-left: solid 1px white;
+    border-right: solid 1px white;
+}
+
+.header a {
+    color: #FF926F;
+}
+
+.header li a:hover {
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
 }
