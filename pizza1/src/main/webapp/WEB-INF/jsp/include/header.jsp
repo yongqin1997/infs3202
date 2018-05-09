@@ -14,6 +14,15 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
+    <div class="header">
 
+        <ul class="header_menu">
+            <li><a class="header_menu_button" href="blablabl">HOME</a></li>
+            <li><a class="header_menu_button" href="blablabl">ACCOUNT</a></li>
+            <li><a class="header_menu_button" href="blablabl">MENU</a></li>
+            <li><a class="header_menu_button" href="blablabl">CHECKOUT</a></li>
+        </ul>
+        <img class="logo" src="pizza_logo.png">
+    </div>
 </body>
 </html>
