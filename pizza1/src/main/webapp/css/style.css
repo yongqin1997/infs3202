@@ -20,7 +20,7 @@
     color: white;
 }
 
-#lgoin {
+#login {
     width: 100%;
     padding: 0 18vw;
     padding-top: 20vh;
@@ -102,4 +102,37 @@ li {
     text-decoration: none;
     color: #FF926F;
     
+}
+
+/*navigation bar*/
+.main-container .header .navigation-bar .navigation-list {
+        background: black;
+        border-radius: 5px;
+        padding: 1vh 1.5vw;
+        cursor: pointer;
+		color: white; }
+		
+div > ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	border-radius: 10px;
+}
+
+div > ul > li{
+	float: left;
+}
+
+div > ul > li > a{
+	display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+div > ul> li > a:hover {
+	background-color: #111;
 }
